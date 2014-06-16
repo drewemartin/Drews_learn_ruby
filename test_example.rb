@@ -16,6 +16,6 @@ require 'file_that_contains_tested_method.rb'
 
   describe "name of method" do
   	it "action that it does" do
-  		method.should == "what it should do"
+  		method_in_question.should == "what it should do"
   	end
   end
